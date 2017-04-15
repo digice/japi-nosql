@@ -68,7 +68,7 @@ class <#Model#>Mdl extends Mdl
 ### Declare the Query Controller ###
 
 ```php
-class <#Model#>Qry
+class <#Model#>Qry extends Qry
 {
 
   public function __construct()
