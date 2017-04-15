@@ -67,6 +67,7 @@ class <#Model#>Mdl extends Mdl
 
 ### Declare the Query Controller ###
 
+```php
 class <#Model#>Qry
 {
 
