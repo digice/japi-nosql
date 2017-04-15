@@ -30,7 +30,7 @@ abstract class Idx
   public function __construct()
   {
     $this->dct = array();
-    $this->pth = dirname(dirname(dirname(__DIR__))).DIRECTORY_SEPARATOR.'var'.DIRECTORY_SEPARATOR.$this->mdl.DIRECTORY_SEPARATOR.'idx'.DIRECTORY_SEPARATOR.$this->col;
+    $this->pth = dirname(dirname(dirname(__DIR__))).DIRECTORY_SEPARATOR.'var'.DIRECTORY_SEPARATOR.'db'.DIRECTORY_SEPARATOR.$this->mdl.DIRECTORY_SEPARATOR.'idx'.DIRECTORY_SEPARATOR.$this->col;
     if (file_exists($this->pth)) {
       if ($csv = file_get_contents($this->pth)) {
         $lines = explode(PHP_EOL, $csv);
